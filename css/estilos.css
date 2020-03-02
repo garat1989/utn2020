@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster+Two&display=swap');
+
+/*FUENTES*/
+@font-face{
+	src: url(../fonts/DISTGRG_.ttf);
+	font-family: "Lola";
+}
+
+*{margin:0;padding: 0; }
+html{font-family: "arial", sans-serif;
+	 font-size: 16px;
+	 scroll-behavior: smooth;
+	}
+
+.contenedor1{
+	width:80%;
+	margin: 0 auto;
+}
+
+header{
+	text-align:center;
+	position: sticky;
+	top: 0;
+}
+
+#mainNav{
+	/*position: fixed;
+	top:0;
+	width: 100%;*/
+	background-color: white;
+	box-shadow: 0px 10px 20px rgba(100, 100, 100, 0.5);
+}
+
+#mainNav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+#mainNav ul li a{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2rem;
+	text-decoration: none;
+	display: block;
+	margin: 20px;
+}
+
+/* SECCION */
+
+h2{
+	font-family: 'Lobster Two', cursive;
+}
+
+p{
+	font-family: "Lola";
+}
+
+#secc-1{
+	background: olive;
+}
+
+#secc-2 {
+	background: salmon;
+}
+#secc-3 {
+	background: lightgrey;
+}
+#secc-4 {
+	background: lightblue;
+}
+#secc-5{
+	background: peru;
+}
+#secc-6 {
+	background: tomato;
+}
+/*section{*/
+#secc-1,#secc-2,#secc-3,#secc-4,#secc-5,#secc-6{
+	padding-top:50px;
+	height: 400px;
+	color: white;
+}
